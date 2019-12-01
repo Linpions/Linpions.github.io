@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Hexo博客搭建——3-hexo主题快捷键</title>
+      <link href="/2019/12/01/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E2%80%94%E2%80%943-hexo%E4%B8%BB%E9%A2%98%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+      <url>/2019/12/01/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E2%80%94%E2%80%943-hexo%E4%B8%BB%E9%A2%98%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="搜索框"><a href="#搜索框" class="headerlink" title="搜索框"></a>搜索框</h1><table><thead><tr><th>快捷键</th><th>功能</th></tr></thead><tbody><tr><td>ESC</td><td>1. 如果输入框有内容，清除内容<br />2. 如果输入框无内容，失去焦点</td></tr><tr><td>i/I</td><td>获取焦点</td></tr><tr><td>下</td><td>向下选择文章</td></tr><tr><td>上</td><td>向上选择文章</td></tr><tr><td>回车</td><td>打开当前选中的文章，若没有，则默认打开第一个</td></tr></tbody></table><h1 id="全局"><a href="#全局" class="headerlink" title="全局"></a>全局</h1><table><thead><tr><th>快捷键</th><th>功能</th></tr></thead><tbody><tr><td>s/S</td><td>全屏/取消全屏</td></tr><tr><td>w/W</td><td>打开/关闭文章目录</td></tr><tr><td>j/J</td><td>向下滑动</td></tr><tr><td>k/K</td><td>向上滑动</td></tr><tr><td>gg/GG</td><td>到最顶端</td></tr><tr><td>shift+G/g</td><td>到最下端</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo博客搭建 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo博客搭建——分类、标签设置</title>
       <link href="/2019/12/01/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E2%80%94%E2%80%94%E5%88%86%E7%B1%BB%E3%80%81%E6%A0%87%E7%AD%BE%E8%AE%BE%E7%BD%AE/"/>
       <url>/2019/12/01/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E2%80%94%E2%80%94%E5%88%86%E7%B1%BB%E3%80%81%E6%A0%87%E7%AD%BE%E8%AE%BE%E7%BD%AE/</url>
