@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>Beamer的主题样式（Theme）</title>
+      <link href="/2019/12/05/Beamer%E7%9A%84%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%EF%BC%88Theme%EF%BC%89/"/>
+      <url>/2019/12/05/Beamer%E7%9A%84%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%EF%BC%88Theme%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<p>各个主题预览效果：</p><h1 id="幻灯片主题样式"><a href="#幻灯片主题样式" class="headerlink" title="幻灯片主题样式"></a>幻灯片主题样式</h1><p>幻灯片主题样式：Presentation Themes</p><p>控制着演示稿的每一细节的外观，也就是说，控制着列表中数字的颜色、背景、字体、列表标记形状等。</p><p>非常融洽地整合了颜色主题、字体主题、内部主题、外部主题。</p><ul><li>导言区指定Beamer主题样式<name>.sty</li></ul><pre><code class="latex">\usetheme[option]{name}</code></pre><ul><li>旧主题样式： bars、boxes、classic、default、lined、plain、shadow、sidebar、sidebardark、sidebardarktab、sidebartab、split、tree、treebars。</li><li>新主题样式（v3.0）<ul><li>W/o导航条：default、boxes、Bergen、Madrid、Pittsburgh、Rochester</li><li>带树形导航条：Antibes、JuanLesPins、Montpellier。</li><li>带目录（TOC）的侧边导航条：Berkeley、PaloAlto、Goettingen、Marburg、Hannover。</li><li>带微型frame（微帧）导航条：Berlin、Ilmenau、Dresden、Darmstadt、Frankfurt、Singapore、Szeged。</li><li>带节和小节标题列表：Copenhagen、Luebeck、Malmoe、Warsaw。</li></ul></li></ul><h1 id="颜色主题样式"><a href="#颜色主题样式" class="headerlink" title="颜色主题样式"></a>颜色主题样式</h1><p>颜色主题样式：Color Themes</p><p>可指定按钮的边界的颜色、按钮的背景色、按钮文本的颜色等。</p><ul><li><p>导言区指定beamercolortheme<name>.sty</p></li><li><p>四种基本的颜色主题样式：</p><ul><li>Default and special-purpose themes: default、structure</li><li>Complete color themes: albatross、beetle、crane、dove、fly、seagull。</li><li>内部颜色主题：lily、orchid</li><li>外部颜色主题：whale、seaahorse</li><li>自定义元素颜色</li></ul><pre><code class="latex">\setbeamercolor{beamer_element}{color}# 例子\setbeamercolor{frametitle}{fg=blue,bg=yellow}</code></pre></li></ul><h1 id="字体主题样式"><a href="#字体主题样式" class="headerlink" title="字体主题样式"></a>字体主题样式</h1><p>字体主题样式：Font Themes</p><p>可分别指定演示稿中所有文本元素使用的字体。</p><ul><li>导言区指定beamerfonttheme<name>.sty</li><li>新主题样式（v3.0）: default、professionalfonts、serif、structurebold、structureitalicserif、structuresmallcapsserif。</li></ul><pre><code class="latex">\documentclass[8pt]{beamer}% 8、9、14、17、20pt必须先安装extsize宏包% 默认的字体尺寸是11寸，无需指定该尺寸% 其他尺寸：10、12、smaller、bigger</code></pre><h1 id="内部主题"><a href="#内部主题" class="headerlink" title="内部主题"></a>内部主题</h1><p>内部主题：Inner Themes</p><p>控制着排版演示稿的元素，不是顶部导航区、底部导航区或侧栏的一部分。</p><p>控制元素包括：</p><ul><li>标题和部分页面（title and part pages）</li><li>排序环境（enumerations）</li><li>列表环境（itmize）</li><li>块环境（Block）</li><li>定理、证明环境（theorem、proof）</li><li>Description环境</li><li>目录（table of contents）</li><li>图和表（figures、tables）</li><li>脚注（footnotes）</li><li>参考书目条目（Bibliography entries）</li></ul><h1 id="外部主题"><a href="#外部主题" class="headerlink" title="外部主题"></a>外部主题</h1><p>外部主题：Outer Themes</p><p>控制着幻灯片的“外部”或“边界”的显示方式，它指定了如何生成下列元素；</p><ul><li>顶部导航区（headlline）</li><li>底部导航区（footline）</li><li>侧栏（sidebar）</li><li>徽标（Logo）</li><li>导航符（navigation symbol）</li><li>导航条（navigation bars）</li><li>帧标题（frametitle），如何显示帧标题</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+          <category> LaTeX </category>
+          
+          <category> Beamer </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>LaTeX数学公式</title>
       <link href="/2019/12/01/LaTeX%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
       <url>/2019/12/01/LaTeX%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
