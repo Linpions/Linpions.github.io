@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Hexo博客搭建——3-hexo主题快捷键 | Linpions&#39; Blog</title>
-  <meta name="keywords" content=" Hexo ">
-  <meta name="description" content="Hexo博客搭建——3-hexo主题快捷键 | Linpions&#39; Blog">
+  <title>Hexo博客搭建——3-hexo添加音乐插件 | Linpions&#39; Blog</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="Hexo博客搭建——3-hexo添加音乐插件 | Linpions&#39; Blog">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
@@ -296,9 +296,9 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-Hexo博客搭建——3-hexo主题快捷键" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-Hexo博客搭建——3-hexo添加音乐插件" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">Hexo博客搭建——3-hexo主题快捷键</h1>
+        <h1 class="article-title">Hexo博客搭建——3-hexo添加音乐插件</h1>
     
     <div class="article-meta">
         
@@ -311,16 +311,10 @@
         </span>
         
         
-        <span class="tag">
-            
-            <a class="color5">Hexo</a>
-            
-        </span>
-        
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2019-12-01 22:40:28'>2019-12-01 22:32</time>
+        创建时间:<time class="date" title='更新时间: 2019-12-06 17:10:43'>2019-12-06 16:57</time>
         
     </div>
     <div class="article-meta">
@@ -342,7 +336,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#搜索框"><span class="toc-text">搜索框</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#全局"><span class="toc-text">全局</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#网易云音乐"><span class="toc-text">网易云音乐</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -358,66 +352,28 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="搜索框"><a href="#搜索框" class="headerlink" title="搜索框"></a>搜索框</h1><table>
-<thead>
-<tr>
-<th>快捷键</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ESC</td>
-<td>1. 如果输入框有内容，清除内容<br />2. 如果输入框无内容，失去焦点</td>
-</tr>
-<tr>
-<td>i/I</td>
-<td>获取焦点</td>
-</tr>
-<tr>
-<td>下</td>
-<td>向下选择文章</td>
-</tr>
-<tr>
-<td>上</td>
-<td>向上选择文章</td>
-</tr>
-<tr>
-<td>回车</td>
-<td>打开当前选中的文章，若没有，则默认打开第一个</td>
-</tr>
-</tbody></table>
-<h1 id="全局"><a href="#全局" class="headerlink" title="全局"></a>全局</h1><table>
-<thead>
-<tr>
-<th>快捷键</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>s/S</td>
-<td>全屏/取消全屏</td>
-</tr>
-<tr>
-<td>w/W</td>
-<td>打开/关闭文章目录</td>
-</tr>
-<tr>
-<td>j/J</td>
-<td>向下滑动</td>
-</tr>
-<tr>
-<td>k/K</td>
-<td>向上滑动</td>
-</tr>
-<tr>
-<td>gg/GG</td>
-<td>到最顶端</td>
-</tr>
-<tr>
-<td>shift+G/g</td>
-<td>到最下端</td>
-</tr>
-</tbody></table>
+        <h1 id="网易云音乐"><a href="#网易云音乐" class="headerlink" title="网易云音乐"></a>网易云音乐</h1><ol>
+<li>复制网易云音乐外链播放器代码</li>
+</ol>
+<p>浏览器打开网易云音乐官网，随便搜索你想作为背景音乐的歌曲，打开播放界面，<strong>生成外链播放器</strong>。</p>
+<p>有两个插件：iframe、flash。我选择iframe</p>
+<p>选择尺寸播放模式</p>
+<p>复制HTML代码，外层最好加个div，如下所示</p>
+<pre><code class="css">&lt;div style=&quot;position:absolute; bottom: 0; right: 0;&quot;&gt;
+    &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=38592976&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt; 
+% 中间是HTML代码</code></pre>
+<ol start="2">
+<li>将插件引入到主题中</li>
+</ol>
+<p>把上面的代码粘贴到主题文件夹下的<code>layout/_partial/footer.ejs</code>的最后面即可。</p>
+<ol start="3">
+<li>调整插件位置</li>
+</ol>
+<p>默认在右下角，可调整上面代码的<code>div</code>的style中的bottom、right来调整位置。</p>
+<blockquote>
+<p>参考自：</p>
+</blockquote>
 
       
        
